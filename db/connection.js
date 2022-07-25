@@ -4,10 +4,10 @@ const db = mysql.createConnection(
     {
         host: 'localhost',
         user: 'root',
-        password: 'bomdadil22',
-        database: 'employees'
+        password: 'bombadil22',
+        database: 'staff'
     },
-    console.log('Connected to the employees database.')
+    console.log('Connected to the staff database.')
 )
 
 module.exports = db;
